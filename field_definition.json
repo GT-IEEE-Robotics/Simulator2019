@@ -1,0 +1,22 @@
+{
+    "header": {
+        "origin": "topleft",
+        "unit": "meter"
+    },
+    "ground": {
+        "carpet" : {
+            "x": 0,
+            "y": 0,
+            "width": 2.74,
+            "height": 2.74
+        }
+    },
+    "obstacles": {
+        "wall1": {
+            "x": 1,
+            "y": 1,
+            "width": 1,
+            "height": 1
+        }
+    }
+}
