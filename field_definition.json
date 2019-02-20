@@ -1,22 +1,228 @@
 {
     "header": {
         "origin": "topleft",
-        "unit": "meter"
+        "distance_unit": "meter",
+        "orientation_unit": "degree",
+        "max_width": 2.7432,
+        "max_height": 2.7432
     },
     "ground": {
-        "carpet" : {
+        "carpet" : [{
+            "shape": "rect",
             "x": 0,
             "y": 0,
-            "width": 2.74,
-            "height": 2.74
-        }
+            "width": 2.7432,
+            "height": 2.7432,
+            "twist": 0,
+            "fill": {
+                "type": "solid",
+                "color": "#02063a",
+                "thickness": 0
+            }
+        }]
     },
     "obstacles": {
-        "wall1": {
-            "x": 1,
-            "y": 1,
-            "width": 1,
-            "height": 1
+        "walls": [{
+            "x": 0.1262,
+            "y": 0.1262,
+            "width": 0.0254,
+            "height": 2.4654,
+            "twist": 0,
+            "fill": {
+                "type": "solid",
+                "color": "#FFFFFF",
+                "thickness": 0
+            }
+        }, {
+            "x": 0.1262,
+            "y": 2.5916,
+            "width": 2.4654,
+            "height": 0.0254,
+            "twist": 0,
+            "fill": {
+                "type": "solid",
+                "color": "#FFFFFF",
+                "thickness": 0
+            }
+        }, {
+            "x": 2.5916,
+            "y": 0.1516,
+            "width": 0.0254,
+            "height": 2.4654,
+            "twist": 0,
+            "fill": {
+                "type": "solid",
+                "color": "#FFFFFF",
+                "thickness": 0
+            }
+        }, {
+            "x": 0.1516,
+            "y": 0.1262,
+            "width": 2.4654,
+            "height": 0.0254,
+            "twist": 0,
+            "fill": {
+                "type": "solid",
+                "color": "#FFFFFF",
+                "thickness": 0
+            }
+        }],
+        "corner_posts": {
+
         }
+    },
+    "pickupable": {
+        "cube1": [{
+            "shape": "rect",
+            "x": "random",
+            "y": "random",
+            "width": 0.0508,
+            "height": 0.0508,
+            "twist": "random",
+            "fill": {
+                "type": "solid",
+                "color": "#FF0000",
+                "thickness": 0
+            }
+        }],
+        "cube2": [{
+            "shape": "rect",
+            "x": "random",
+            "y": "random",
+            "width": 0.0508,
+            "height": 0.0508,
+            "twist": "random",
+            "fill": {
+                "type": "solid",
+                "color": "#FF0000",
+                "thickness": 0
+            }
+        }],
+        "cube3": [{
+            "shape": "rect",
+            "x": "random",
+            "y": "random",
+            "width": 0.0508,
+            "height": 0.0508,
+            "twist": "random",
+            "fill": {
+                "type": "solid",
+                "color": "#00FF00",
+                "thickness": 0
+            }
+        }],
+        "cube4": [{
+            "shape": "rect",
+            "x": "random",
+            "y": "random",
+            "width": 0.0508,
+            "height": 0.0508,
+            "twist": "random",
+            "fill": {
+                "type": "solid",
+                "color": "#00FF00",
+                "thickness": 0
+            }
+        }],
+        "cube5": [{
+            "shape": "rect",
+            "x": "random",
+            "y": "random",
+            "width": 0.0508,
+            "height": 0.0508,
+            "twist": "random",
+            "fill": {
+                "type": "solid",
+                "color": "#0000FF",
+                "thickness": 0
+            }
+        }],
+        "cube6": [{
+            "shape": "rect",
+            "x": "random",
+            "y": "random",
+            "width": 0.0508,
+            "height": 0.0508,
+            "twist": "random",
+            "fill": {
+                "type": "solid",
+                "color": "#0000FF",
+                "thickness": 0
+            }
+        }],
+        "cube7": [{
+            "shape": "rect",
+            "x": "random",
+            "y": "random",
+            "width": 0.0508,
+            "height": 0.0508,
+            "twist": "random",
+            "fill": {
+                "type": "solid",
+                "color": "#FFFF00",
+                "thickness": 0
+            }
+        }],
+        "cube8": [{
+            "shape": "rect",
+            "x": "random",
+            "y": "random",
+            "width": 0.0508,
+            "height": 0.0508,
+            "twist": "random",
+            "fill": {
+                "type": "solid",
+                "color": "#FFFF00",
+                "thickness": 0
+            }
+        }],
+        "ball1": [{
+            "shape": "circle",
+            "x": "random",
+            "y": "random",
+            "diameter": 0.0635,
+            "twist": "random",
+            "fill": {
+                "type": "solid",
+                "color": "#FF0000",
+                "thickness": 0
+            }
+        }],
+        "ball2": [{
+            "shape": "circle",
+            "x": "random",
+            "y": "random",
+            "diameter": 0.0635,
+            "twist": "random",
+            "fill": {
+                "type": "solid",
+                "color": "#00FF00",
+                "thickness": 0
+            }
+        }],
+        "ball3": [{
+            "shape": "circle",
+            "x": "random",
+            "y": "random",
+            "diameter": 0.0635,
+            "twist": "random",
+            "fill": {
+                "type": "solid",
+                "color": "#0000FF",
+                "thickness": 0
+            }
+        }],
+        "ball4": [{
+            "shape": "circle",
+            "x": "random",
+            "y": "random",
+            "diameter": 0.0635,
+            "twist": "random",
+            "fill": {
+                "type": "solid",
+                "color": "#FFFF00",
+                "thickness": 0
+            }
+        }]
     }
 }

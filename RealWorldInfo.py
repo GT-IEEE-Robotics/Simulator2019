@@ -9,8 +9,9 @@ class RealWorldInfo:
         with open('field_definition.json') as field_json:
             field_data = json.load(field_json)
 
-        self.meters_to_pixels_vertical_scaling_factor = screen_height_p / field_data["vertical"]
-        self.meters_to_pixels_horizontal_scaling_factor = screen_width_p / field_data["horizontal"]
+        self.meters_to_pixels_vertical_scaling_factor = screen_height_p
+        self.meters_to_pixels_horizontal_scaling_factor = screen_width_p
+        self.json_val = field_data["ground"]
 
     def m_to_p_horizontal(self, value_m):
         return value_m * self.meters_to_pixels_horizontal_scaling_factor
